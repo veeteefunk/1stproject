@@ -1,0 +1,44 @@
+body{
+  font-size: 15px;
+  line-height: 1.5;
+  padding:0;
+  margin:0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  font-family: Georgia;
+  width:80%;
+  margin:auto;
+  overflow: hidden;
+}
+
+.jumbotron{
+  background-color: #CCD0F3 !important;
+  font-family: Georgia !important;
+  padding:0;
+}
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color: #ffffff;
+  background-color:#696FA5;
+  text-align:center;
+}
+
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #main-col,
+  #sidebar,
+  #boxes .box{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+}
